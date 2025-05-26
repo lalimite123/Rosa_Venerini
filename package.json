@@ -11,14 +11,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^12.14.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.4.1",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
     "@biomejs/biome": "1.9.4",
+    "@eslint/js": "^9.18.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@typescript-eslint/eslint-plugin": "^8.20.0",
