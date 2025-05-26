@@ -47,3 +47,2129 @@ a {
     @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
   }
 }
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation pour les cartes et sections */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom utility classes */
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply bg-secondary hover:bg-secondary-dark text-white py-2 px-4 rounded-sm transition-colors duration-200;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold mb-4 text-primary;
+  }
+
+  .header-nav-link {
+    @apply text-white hover:text-accent-beige transition-colors duration-200;
+  }
+
+  .read-more-btn {
+    @apply bg-accent-blue hover:bg-blue-600 text-white text-sm font-medium py-1 px-3 rounded-sm inline-block mt-2;
+  }
+}
+
+/* Animations pour les éléments interactifs */
+.btn-primary, 
+.nav-link,
+a {
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

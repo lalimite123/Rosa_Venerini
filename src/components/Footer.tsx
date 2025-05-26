@@ -8,36 +8,36 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Contact Information */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contattaci</h3>
-            <h4 className="font-bold text-sm mb-2">MAESTRE PIE VENERINI (M.P.V.) Cod. Fisc. 97327030587</h4>
+            <h3 className="text-lg font-semibold mb-4">Contacte</h3>
+            <h4 className="font-bold text-sm mb-2">SOEUR ROSA VENERINI </h4>
             <p className="text-sm mb-2">
-              <strong>Address:</strong> Via Giuseppe Gioachino Belli 31 - 00193 ROMA
+              <strong>Address:</strong> YAOUNDE CAMEROUN
             </p>
             <p className="text-sm mb-2">
-              <strong>Phone:</strong> tel. 06-32.13.205 - tel. 06-32.20.986
+              <strong>Phone:</strong> tel. 00237692196785
             </p>
-            <p className="text-sm mb-2">tel. 06-32.21.222 - fax 06-32.11.596</p>
+            <p className="text-sm mb-2">tel. 00237654872652</p>
             <p className="text-sm mb-2">
               <strong>E-mail:</strong>{' '}
-              <a href="mailto:mpvcongregazione@gmail.com" className="text-accent-beige hover:underline">
-                mpvcongregazione@gmail.com
+              <a href="Missionrosaveneriniebolowa@gmail.com" className="text-accent-beige hover:underline">
+              Missionrosaveneriniebolowa@gmail.com
               </a>
             </p>
             <p className="text-sm">
               <strong>Website:</strong>{' '}
-              <a href="https://maestrepievenerini.it" className="text-accent-beige hover:underline">
-                https://maestrepievenerini.it
+              <a href="https://rosavenerini.vercel.app" className="text-accent-beige hover:underline">
+              https://rosavenerini.vercel.app
               </a>
             </p>
           </div>
 
           {/* Mission */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">La nostra missione</h3>
+            <h3 className="text-lg font-semibold mb-4">La notre missione</h3>
             <p className="text-sm leading-relaxed">
-              Le Maestre Pie Venerini si dedicano all'istruzione e all'educazione cristiana della gioventù.
-              Oltre che in Italia, sono presenti in Albania, Brasile, Camerun, Cile, India, Nigeria, Romania,
-              Stati Uniti d'America e Benin.
+            Les Sœurs Venerini, se consacrent principalement à l'éducation et à l'accompagnement des jeunes, en particulier des filles. 
+            Leur mission est de promouvoir les valeurs chrétiennes à travers l'enseignement, le soutien spirituel et l'engagement communautaire. 
+            Elles travaillent également à l'amélioration des conditions de vie des personnes vulnérables, en offrant des programmes sociaux et éducatifs.
             </p>
           </div>
 
@@ -84,13 +84,12 @@ const Footer: React.FC = () => {
         <div className="container-custom text-xs text-gray-400">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div>
-              Copyright © 2025. Congregazione delle Maestre Pie Venerini - Roma - Cod. Fisc. 97327030587 -
+              Copyright © 2025. Congregazione SOEURS DES SOEURS ROSA Venerini
               <Link to="/privacy" className="ml-1 text-accent-beige hover:underline">Privacy</Link> -
-              <Link to="/informativa-contatti" className="ml-1 text-accent-beige hover:underline">Informativa Contatti</Link>
+              <Link to="/informativa-contatti" className="ml-1 text-accent-beige hover:underline">Information Contacte</Link>
             </div>
             <div className="flex space-x-4 mt-2 md:mt-0">
               <Link to="/" className="hover:text-white">Home</Link>
-              <Link to="/dove-siamo" className="hover:text-white">Dove siamo</Link>
               <Link to="/news-ed-eventi" className="hover:text-white">News ed eventi</Link>
               <Link to="#top" className="hover:text-white">Torna su</Link>
               <Link to="/cookie-policy" className="hover:text-white">Cookie Policy (UE)</Link>
